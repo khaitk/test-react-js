@@ -1,0 +1,37 @@
+[
+  {
+    "id" : 1,
+    "tenSanPham": "Sản phẩm 1",
+    "giaBan": 500000,
+    "moTa": "Mô tả về sản phẩm 1",
+    "hinhAnh": "../images/burger/images01.jpg"
+  },
+  {
+    "id" : 2,
+    "tenSanPham": "Sản phẩm 2",
+    "giaBan": 500000,
+    "moTa": "Mô tả về sản phẩm 1",
+    "hinhAnh": "../images/burger/images01.jpg"
+  },
+  {
+    "id" : 3,
+    "tenSanPham": "Sản phẩm 3",
+    "giaBan": 500000,
+    "moTa": "Mô tả về sản phẩm 1",
+    "hinhAnh": "../images/burger/images01.jpg"
+  },
+  {
+    "id" : 4,
+    "tenSanPham": "Sản phẩm 4",
+    "giaBan": 500000,
+    "moTa": "Mô tả về sản phẩm 1",
+    "hinhAnh": "../images/burger/images01.jpg"
+  },
+  {
+    "id" : 5,
+    "tenSanPham": "Sản phẩm 5",
+    "giaBan": 500000,
+    "moTa": "Mô tả về sản phẩm 1",
+    "hinhAnh": "../images/burger/images01.jpg"
+  }
+]
