@@ -26,7 +26,11 @@ function Cart() {
         localStorage.setItem(LOCAL_STORAGE_KEY,JSON.stringify(cart))
     },[cart])
 
-    console.log(cart)
+    const deleteCart = (id) => {
+        // const newCart = [...cart]
+        // newCart.splice(id, 1)
+        console.log(id)
+    }
 
     return (
         <div className="container-flex">
@@ -50,7 +54,17 @@ function Cart() {
                             <td>{item.tenSanPham}</td>
                             <td>{item.soLuong}</td>
                             <td>{item.giaBan * item.soLuong}</td>
-                            <td><Button>Delete</Button></td>
+                            <td>
+                                <Button onClick={
+                                    () => {
+                                        const newCart = [...cart]
+                                        newCart.splice(index, 1)
+                                        setCart(newCart)
+                                    }}
+                                >
+                                <i className='fa fa-trash-o icon-delete'></i>
+                                </Button>
+                            </td>
                         </tr>
                     )
                 })}
