@@ -19,19 +19,16 @@ function Nav() {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <Link className="navbar-brand" to="/">
-                    <img src={logo} width="80" height="80"
-                         className="d-inline-block align-top" alt=""/>
-                </Link>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                </div>
-                <div className="float-right">
-                    <Link to='/cart'>
-                        <i className="fa fa-cart-plus Icon-font-size"></i>
+            <header className="header">
+                <Link to='/' className='link-logo'><img src={logo} width='50px' className='logo-img'></img></Link>
+                <ul className="main-nav">
+                    <Link to='/cart' className='link'>
+                        <i className="fa fa-shopping-cart icon-cart">
+
+                        </i>
                     </Link>
-                </div>
-            </nav>
+                </ul>
+            </header>
 
             <Outlet />
         </>

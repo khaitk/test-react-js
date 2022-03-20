@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import * as React from "react";
 import {BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
 import Nav from "./components/Nav";
@@ -10,7 +8,7 @@ import Cart from "./components/Cart";
 
 function App() {
     return (
-        <div className="container">
+        <div>
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<Nav/>}>
