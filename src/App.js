@@ -4,11 +4,12 @@ import Nav from "./components/Nav";
 import Product from "./components/Product";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
+import Footer from "./components/Footer";
 
 
 function App() {
     return (
-        <div>
+        <div className='container'>
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<Nav/>}>
@@ -18,6 +19,8 @@ function App() {
                     </Route>
                 </Routes>
             </BrowserRouter>
+
+            <Footer/>
         </div>
     );
 }

@@ -21,7 +21,6 @@ function ProductDetails() {
         tongCong:quantity * Number(item.get('giaBan'))
     }
 
-
     const handleAddCart= () => {
         alert('Đã thêm vào giỏ hàng')
         setCart(prev=>[...prev,cartItem])
@@ -38,10 +37,9 @@ function ProductDetails() {
         localStorage.setItem(LOCAL_STORAGE_KEY,JSON.stringify(cart))
     },[cart])
 
-
     return (
         <>
-            <div className="container">
+            <div className="content">
                 <div className="item">
                     <img src={cartItem.hinhAnh} alt="" width={250}/>
                 </div>

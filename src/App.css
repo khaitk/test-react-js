@@ -8,7 +8,12 @@ a {
     text-decoration: none;
 }
 
-.container {
+.container{
+    width: 1080px;
+    margin: auto;
+}
+
+.content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -36,6 +41,19 @@ a {
     border-radius: 10px;
 }
 
+.text-color-blue{
+    color : #0800ff;
+}
+.text-color-red{
+    color : red;
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -54,7 +72,7 @@ ul {
     font-size: 30px!important;
 }
 
-.icon-delete{
+.icon-delete, .icon-addcart{
     font-size: 18px !important;
 }
 
