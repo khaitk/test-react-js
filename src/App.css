@@ -24,8 +24,7 @@ a {
     font-size: 16px;
     line-height: 1;
     text-align: center;
-    padding: 35px;
-    margin: 2px;
+    padding: 7px;
 }
 
 .container-flex{
@@ -39,6 +38,7 @@ a {
 .card{
     background: #cccccc;
     border-radius: 10px;
+    padding: 2px;
 }
 
 .text-color-blue{

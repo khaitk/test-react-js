@@ -1,6 +1,6 @@
 import '../App.css'
 import Products from '../data/products.json'
-import {useLocation, useNavigate, useParams} from "react-router-dom";
+import {Link, useLocation, useNavigate, useParams} from "react-router-dom";
 import {useEffect, useState} from "react";
 
 function ProductDetails() {
@@ -53,6 +53,36 @@ function ProductDetails() {
             <div className="container-flex">
                 Mô tả <br/>
                 <div>{cartItem.moTa}</div>
+            </div>
+            <div className="content">
+                <h4>Sản phẩm liên quan</h4>
+            </div>
+            <div className="content">
+                {Products.map((product, index)=> {
+                    if(index < 4) {
+                        return (
+                            <div key={index}>
+                                <div className="item">
+                                    <div className="card">
+                                        <Link to={`?tenSanPham=${product.tenSanPham}&giaBan=${product.giaBan}&hinhAnh=${product.hinhAnh}&moTa=${product.moTa}`}>
+                                            <img className="card-img-top" src={product.hinhAnh}  width='200px' height='200px' alt=""/>
+                                        </Link>
+                                        <div className="card-body px-4 pt-2">
+                                            <Link to={`?tenSanPham=${product.tenSanPham}&giaBan=${product.giaBan}&hinhAnh=${product.hinhAnh}&moTa=${product.moTa}`}>
+                                                <b>{product.tenSanPham}</b>
+                                            </Link>
+                                            <div className="row">
+                                                <div className="col-8">
+                                                    <p className='pt-2'>{product.giaBan} đ</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        )
+                    }
+                })}
             </div>
         </>
     );
