@@ -37,7 +37,6 @@ function Cart() {
         return sum;
     }
 
-
     if (cart.length >0){
         return (
             <div className="container-flex">
