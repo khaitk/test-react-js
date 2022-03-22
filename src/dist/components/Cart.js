@@ -1,5 +1,5 @@
 import 'font-awesome/css/font-awesome.min.css';
-import '../App.css'
+import '../../App.css'
 import Button from 'react-bootstrap/Button';
 import Table from 'react-bootstrap/Table';
 import Products from '../data/products.json'
@@ -15,6 +15,7 @@ function Cart() {
     const LOCAL_STORAGE_KEY = 'cart'
     const [cart,setCart] = useState([])
     const [qty, setQty] = useState()
+    const [name, setName] = useState('')
 
     useEffect(()=>{
         const retriveCart = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
@@ -32,26 +33,34 @@ function Cart() {
         cart.map((item, index) => {
             let totalPrice = item.giaBan * item.soLuong;
             sum += totalPrice;
-
         })
         return sum;
     }
 
+    const checkOut = () => {
+        if(name === ''){
+            alert('Tên người mua đang rỗng')
+            return false
+        }
+        alert('Tên: ' + name + '\nTổng Cộng : ' + totalPrice());
+    }
+
     if (cart.length >0){
         return (
-            <div className="container-flex">
-                <Table striped bordered hover>
-                    <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Hình Ảnh</th>
-                        <th>Tên Sản Phẩm</th>
-                        <th>Số Lượng</th>
-                        <th>Tổng Giá</th>
-                        <th>Thực Hiện</th>
-                    </tr>
-                    </thead>
-                    <tbody>
+            <>
+                <div className="container-flex">
+                    <Table striped bordered hover>
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Hình Ảnh</th>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Số Lượng</th>
+                            <th>Tổng Giá</th>
+                            <th>Thực Hiện</th>
+                        </tr>
+                        </thead>
+                        <tbody>
                         {cart.map((item, index) => {
                             return (
                                 <tr key={index} className='text-center'>
@@ -80,9 +89,19 @@ function Cart() {
                             <th colSpan='4'>Tổng Cộng : </th>
                             <th className='text-color-red'>{totalPrice()} đ</th>
                         </tr>
-                    </tbody>
-                </Table>
-            </div>
+                        </tbody>
+                    </Table>
+                </div>
+                <div className='container-flex'>
+                    <div className="item">
+                        <input type="text" name='name' className='input-form' placeholder='Tên Người Mua' onChange={(e) => setName(e.target.value)}/>
+                    </div>
+                    <div className="item">
+                        <Button type='submit' className='btn-check-out' onClick={checkOut}>Thanh Toán</Button>
+                    </div>
+
+                </div>
+            </>
         )
     }else{
         return (

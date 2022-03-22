@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 import Products from '../data/products.json'
 import {Link, useLocation, useNavigate} from "react-router-dom";
 import Button from "react-bootstrap/Button";

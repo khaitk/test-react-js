@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 import Products from '../data/products.json'
 import {Link, useLocation, useNavigate, useParams} from "react-router-dom";
 import {useEffect, useState} from "react";

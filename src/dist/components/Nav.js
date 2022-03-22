@@ -1,5 +1,5 @@
-import '../App.css';
-import logo from '../logo.png';
+import '../../App.css';
+import logo from '../../logo.png';
 import {Link, Outlet, useNavigate} from "react-router-dom";
 import {useEffect, useState} from "react";
 

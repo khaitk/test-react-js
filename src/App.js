@@ -1,10 +1,10 @@
 import * as React from "react";
 import {BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
-import Nav from "./components/Nav";
-import Product from "./components/Product";
-import ProductDetails from "./components/ProductDetails";
-import Cart from "./components/Cart";
-import Footer from "./components/Footer";
+import Nav from "./dist/components/Nav";
+import Product from "./dist/components/Product";
+import ProductDetails from "./dist/components/ProductDetails";
+import Cart from "./dist/components/Cart";
+import Footer from "./dist/components/Footer";
 
 
 function App() {

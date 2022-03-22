@@ -2,7 +2,7 @@
   {
     "id" : 1,
     "tenSanPham": "Sản phẩm 1",
-    "giaBan": 55000,
+    "giaBan": 45000,
     "moTa": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "hinhAnh": "../images/burger/images01.png"
   },
@@ -37,50 +37,50 @@
   {
     "id" : 6,
     "tenSanPham": "Sản phẩm 6",
-    "giaBan": 70000,
+    "giaBan": 25000,
     "moTa": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "hinhAnh": "../images/pizza/images03.png"
+    "hinhAnh": "../images/tea/tra-thanh-dao.png"
   },
   {
     "id" : 7,
     "tenSanPham": "Sản phẩm 6",
-    "giaBan": 85000,
+    "giaBan": 25000,
     "moTa": "Lorem Ipsum is simply dummy \n text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "hinhAnh": "../images/pizza/images02.png"
+    "hinhAnh": "../images/tea/tra-thach-vai.png"
   },
   {
     "id" : 8,
     "tenSanPham": "Sản phẩm 8",
-    "giaBan": 85000,
+    "giaBan": 35000,
     "moTa": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "hinhAnh": "../images/pizza/images02.png"
+    "hinhAnh": "../images/tea/tra-sen-vang.png"
   },
   {
   "id" : 9,
   "tenSanPham": "Sản phẩm 9",
-  "giaBan": 85000,
+  "giaBan": 35000,
   "moTa": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  "hinhAnh": "../images/pizza/images02.png"
+  "hinhAnh": "../images/cafe/mocha-macchiato.png"
   },
   {
     "id" : 10,
     "tenSanPham": "Sản phẩm 10",
-    "giaBan": 85000,
+    "giaBan": 45000,
     "moTa": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "hinhAnh": "../images/pizza/images02.png"
+    "hinhAnh": "../images/cafe/latte.png"
   },
   {
     "id" : 11,
     "tenSanPham": "Sản phẩm 11",
-    "giaBan": 85000,
+    "giaBan": 35000,
     "moTa": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "hinhAnh": "../images/pizza/images02.png"
+    "hinhAnh": "../images/cafe/capuccino.png"
   },
   {
     "id" : 12,
     "tenSanPham": "Sản phẩm 12",
-    "giaBan": 85000,
+    "giaBan": 25000,
     "moTa": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "hinhAnh": "../images/pizza/images02.png"
+    "hinhAnh": "../images/cafe/caramel-macchiato.png"
   }
 ]
